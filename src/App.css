@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    --veryDark: #2D2C2C;
+    --dimGray: #747474;
+    --gray: #F0F0F0;
+    --darkGray: #B1AEAE;
+    --lightBlue: #437EF0;
+    --Gainsboro: #DDDDDD;
+    --borderGray: #DBDBDB;
+    --green: #008000;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.ant-collapse-content-box {
+    background-color: var(--black) !important;
+    color: var(--white) !important;
+}
+
+.ant-collapse-header {
+    flex-direction: row-reverse !important;
+}
+
+.ant-collapse-expand-icon,
+.ant-collapse-header-text {
+    color: var(--white) !important;
+    font-size: 16px !important;
+    font-weight: 400 !important;
+}
+
+.mobileNumberArrowRemove input[type="number"]::-webkit-inner-spin-button,
+.mobileNumberArrowRemove input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.MuiPopover-root>.MuiPaper-root {
+    width: 100%;
+}
+
+.MuiAvatar-img {
+    object-fit: unset !important;
+}
+
+.marquee-container {
+    z-index: 0 !important;
+}
+
+.contact_page_first_section_titleBlue {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 72px;
+    color: var(--green);
+}
+
+.phone_email_icon {
+    cursor: pointer;
+    font-size: 44px;
+    color: var(--white);
+}
+
+.MuiInputBase-root,
+.MuiInputBase-root::after,
+.MuiInputBase-root:hover {
+    color: var(--white) !important;
+    border-bottom: 1px solid var(--white) !important;
+    background-color: var(--black) !important;
+}
+
+.MuiPaper-elevation {
+    background-color: var(--veryDark) !important;
+}
+
+.main_logo {
+    cursor: pointer;
+    height: 90px;
+    width: 180px;
+}
+
+.MuiSvgIcon-fontSizeMedium {
+    color: var(--white) !important;
+}
+
+.container_space {
+    flex-basis: 8.3333% !important;
+    max-width: 8.3333% !important;
+}
+
+.container_content {
+    flex-basis: 83.33334% !important;
+    max-width: 83.33334% !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+@media (max-width: 1599.9px) {
+    .container_space {
+        flex-basis: 0px !important;
+        max-width: 0px !important;
+    }
+
+    .container_content {
+        flex-basis: 100% !important;
+        max-width: 100% !important;
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+}
+
+@media (max-width: 899.9px) {
+
+    .main_logo {
+        height: 70px;
+        width: 160px;
+    }
+
+    .contact_page_first_section_titleBlue {
+        font-size: 30px;
+        line-height: normal;
+    }
+
+    .phone_email_icon {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 599.9px) {
+    .home_page_seven_section_CameraIconWithFaceImg {
+        top: 2% !important;
+        left: 15% !important;
+    }
+}
